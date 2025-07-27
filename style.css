@@ -94,16 +94,16 @@ body {
     font-size: 32px;
     position: static;         
     margin: 20px auto;        
-    max-width: 80vw;         
+    max-width: 80vw;          
     text-align: center;      
-    word-break: break-word;   
+    word-break: break-word;  
 
 
 .h1{
     color: rgb(128, 6, 47);
     font-size: 60px;
-    position: static;        
-    margin: -20px auto 20px auto;        
+    position: static;         
+    margin: -30px auto 20px auto;       
     max-width: 80vw;         
     text-align: center;       
     word-break: break-word;  
