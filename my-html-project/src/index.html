@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privado da Yas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="h1">privado da yas</h1>
+    <h2 class="ht2">𓏲˚ ۪ ❤︎⊹.   ݁ coletanea de memorias, fangirling, etc</h2>
+    <button class="meubotao" onclick="mostrarMensagem()">clique aqui</button>
+    <p id="mensagem" style="display: none;">Highway 1009 ou Blossom ?</p>
+    <div id="botoes"></div>
+    <script>
+        function mostrarMensagem() {
+            const mensagem = document.getElementById('mensagem');
+            mensagem.style.display = 'block';
+            mensagem.classList.add('mensagem-style');
+            criarBotoes();
+        }
+        function criarBotoes() {
+            const botoesDiv = document.getElementById('botoes');
+            botoesDiv.innerHTML = ''; // Clear previous buttons
+
+            // Botão Highway 1009
+            const botaoSim = document.createElement('button');
+            botaoSim.innerHTML = 'Highway 1009';
+            botaoSim.className = 'positivo';
+            botaoSim.onclick = function() {
+                alert('pode seguir ૮(˶╥︿╥)ა ');
+            };
+            botoesDiv.appendChild(botaoSim);
+
+            // Botão Blossom
+            const botaoNao = document.createElement('button');
+            botaoNao.innerHTML = 'Blossom';
+            botaoNao.className = 'negativo';
+            botaoNao.onclick = function() {
+                alert('bem vindo! (๑•᎑•๑)');
+            };
+            botoesDiv.appendChild(botaoNao);
+        }
+    </script>
+
+
+</body>
+</html>

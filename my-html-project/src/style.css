@@ -1,0 +1,111 @@
+body {
+    background-image: url('https://i.redd.it/enhypen-2nd-full-album-romance-untold-concept-photos-v0-uo6r1bdwsq8d1.jpg?width=2753&format=pjpg&auto=webp&s=715907135210bd4aa0574eab02d5bcb4fb84c919');
+    background-repeat: no-repeat;  
+    background-size: contain;       
+    background-position: center;  
+    height: 100vh;               
+    margin: 0;                    
+    font-family: Arial;
+    font-size: 50px;
+    color: #270816;
+    text-align: center;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mensagem-style {
+    background-color: #000000;
+    color: rgb(202, 119, 170);
+    padding: 16px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    max-width: 80vw;
+    text-align: center;
+    word-break: break-word;
+}
+
+
+    .meubotao {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 16px 32px;  
+    border: none;
+    border-radius: 12px;  /* Slightly more rounded */
+    font-size: 20px;      /* Larger font for visibility */
+    cursor: pointer;
+    margin: 90px auto 20px auto;    /* Adds space around the button */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Optional: subtle shadow */
+}
+
+
+.mensagem-style {
+    background-color: #000000;
+    color: rgb(202, 119, 170);
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px auto;
+    max-width: 80vw;
+    text-align: center;
+}
+
+
+.positivo {
+    background-color: #8a092f;
+    color: rgb(46, 1, 29);
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    left: auto;
+    right: 60%;
+}
+
+.negativo {
+    background-color: rgb(196, 80, 80);
+    color: rgb(46, 1, 29);
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    left: 60%;
+    right:auto;
+}
+
+.ht2 {
+    color: rgb(206, 94, 156);
+    font-size: 32px;
+    position: static;         /* Remove absolute positioning */
+    margin: 20px auto;        /* Center and add space */
+    max-width: 80vw;          /* Prevent overflow */
+    text-align: center;       /* Center text */
+    word-break: break-word;   /* Wrap long text */
+}
+
+
+.h1{
+    color: rgb(128, 6, 47);
+    font-size: 60px;
+    position: static;         /* Remove absolute positioning */
+    margin: -30px auto 20px auto;        /* Center and add space */
+    max-width: 80vw;          /* Prevent overflow */
+    text-align: center;       /* Center text */
+    word-break: break-word;   /* Wrap long text */
+}
