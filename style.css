@@ -1,7 +1,7 @@
 body {
     background-image: url('https://i.redd.it/enhypen-2nd-full-album-romance-untold-concept-photos-v0-uo6r1bdwsq8d1.jpg?width=2753&format=pjpg&auto=webp&s=715907135210bd4aa0574eab02d5bcb4fb84c919');
     background-repeat: no-repeat;  
-    background-size: cover;       
+    background-size: contain;       
     background-position: center;  
     height: 100vh;               
     margin: 0;                    
@@ -103,7 +103,7 @@ body {
     color: rgb(128, 6, 47);
     font-size: 60px;
     position: static;        
-    margin: -50px auto 20px auto;        
+    margin: -30px auto 20px auto;        
     max-width: 80vw;         
     text-align: center;       
     word-break: break-word;  
